@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social book</title>
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/@fortawesome/fontawesome-free/css/all.css">
+    <script type="text/javascript" src="/js/index.js" defer></script>
+</head>
+<body id="body" class="body light-theme">
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="nav-section one">
+                <span>S</span><h3 class="nav-icons nav-logo">ocialbook</h3>
+                <i class="fa-classic fa-bell nav-icons"></i>
+                <i class="fa-classic fa-envelope nav-icons"></i>
+                <i class="fas fa-display nav-icons watch"> <i class="fas fa-play nav-icons watch-play"></i> </i>
+            </div>
+            <div class="nav-section">
+                <div class="search">
+                    <i class="fa fa-search search-icon"></i>
+                    <input type="text" class="nav-icons nav__search-bar" placeholder="search">
+                </div>
+                <div id="profileMenu" class="nav-icons profile-pic">
+                    <img src="/styles/images/images.png" alt="profile pic" class="img-fluid">
+                    <div class="online"></div>
+                </div>
+            </div>
+            <!-- PROFILE SETTING -->
+            <div id="settingMenu" class="setting__container">
+                <div class="setting__row">
+                    <div class="setting__col profile-pic one">
+                        <img src="/styles/images/status/status-6.png" alt="status pic" class="img-fluid">
+                    </div>
+                    <div class="setting__details one">
+                        <div>
+                            <h4 class="side-bar-header">John Wick</h4>
+                            <p class="more-link">see your profile</p>
+                        </div> 
+                        <div id="toggle-button-bg" class="toggle-button-bg">
+                            <div id="toggle-btn" class="toggle-btn"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="setting__row">
+                    <div class="setting__col profile-pic one">
+                        <i class="fa fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="setting__details">
+                        <div>
+                            <p class="side-bar-header">Give Feedback</p>
+                            <p class="more-link">Help us improve our design</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="setting__row">
+                    <div class="setting__col profile-pic last">
+                        <i class="fa fa-gear"></i>
+                    </div>
+                    <div class="setting__details last">
+                        <p class="side-bar-header">Setting & Privacy</p> 
+                        <i class="fa fa-greater-than"></i>
+                    </div>
+                </div>
+                <div class="setting__row">
+                    <div class="setting__col profile-pic last">
+                        <i class="fa fa-question"></i>
+                    </div>
+                    <div class="setting__details last">
+                        <p class="side-bar-header">Help & Support</p> 
+                        <i class="fa fa-greater-than"></i>
+                    </div>
+                </div>
+                <div class="setting__row">
+                    <div class="setting__col profile-pic last">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="setting__details last">
+                        <p class="side-bar-header">Display & Accessibility</p> 
+                        <i class="fa fa-greater-than"></i>
+                    </div>
+                </div>
+                <div class="setting__row">
+                    <div class="setting__col profile-pic last">
+                        <i class="fas fa-sign-out"></i>
+                    </div>
+                    <div class="setting__details last">
+                        <p class="side-bar-header">Logout</p> 
+                        <i class="fa fa-greater-than"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="left-side-bar">
+                <div class="side-bar-container left">
+                    <div class="side-bar-row">
+                        <div class="side-bar-list border">
+                            <div class="side-bar-items">
+                                <i class="side-bar-icons fas fa-bar-chart"></i>
+                                <p>Latest News</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <i class="side-bar-icons fas fa-user-friends"></i>
+                                <p>Friends</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <i class="side-bar-icons fas fa-users"></i>
+                                <p>Group</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <i class="side-bar-icons fas fa-shopping-cart"></i>
+                                <p>marketplace</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <i class="side-bar-icons fas fa-tv watch"><i class="side-bar-icons fas fa-play watch-play"></i></i>
+                                <p>watch</p>
+                            </div>
+                            <div class="side-bar-items more-link">See More</li>
+                        </div>
+                    </div>
+                    <div class="side-bar-row shortcuts">
+                        <h4 class="side-bar-headers">
+                            Your Shortcuts
+                        </h4>
+                        <div class="side-bar-list">
+                            <div class="side-bar-items">
+                                <img src="./styles/images/design-pictures/portfolio-2.jpg" alt="group img" class="img-fluid left-side-bar-img">
+                                <p>Web Developers</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <img src="./styles/images/design-pictures/portfolio-5.jpg" alt="group img" class="img-fluid left-side-bar-img">
+                                <p>Web Design course</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <img src="./styles/images/design-pictures/portfolio-7.jpg" alt="group img" class="img-fluid left-side-bar-img">
+                                <p>Full Stack Development</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <img src="./styles/images/design-pictures/portfolio-9.jpg" alt="group img" class="img-fluid left-side-bar-img">
+                                <P>Website Experts</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <div class="main-conent">
+                    <section class="status__row">
+                        <div class="status__col one">
+                            <div class="status__info">
+                                <i class="fas fa-plus add-icon"> </i>
+                                <p class="status-text no-wrap">post story</p>
+                            </div>
+                        </div>
+                        <div class="status__col two">
+                            <div class="status__info">
+                                <div class="profile-pic status">
+                                    <img src="/styles/images/status/status-5.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <p class="status-text">Alisson</p>
+                            </div>
+                        </div>
+                        <div class="status__col three">
+                            <div class="status__info">
+                                <div class="profile-pic status">
+                                    <img src="/styles/images/status/status-2.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <p class="status-text">Samson</p>
+                            </div>
+                        </div>
+                        <div class="status__col four">
+                            <div class="status__info">
+                                <div class="profile-pic status">
+                                    <img src="/styles/images/status/status-1.jpg" alt="status pic" class="img-fluid">
+                                </div>
+                                <p class="status-text">Joseph</p>
+                            </div>
+                        </div>
+                        <div class="status__col five">
+                            <div class="status__info">
+                                <div class="profile-pic status">
+                                    <img src="/styles/images/status/status-6.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <p class="status-text no-wrap">David Ban</p>
+                            </div>
+                        </div>
+                        <div class="status__col three">
+                            <div class="status__info">
+                                <div class="profile-pic status">
+                                    <img src="/styles/images/status/status-3.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <p class="status-text">Samson</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="create" class="create">
+                        <div class="create__container">
+                            <div class="create__row-header profile-pic one">
+                                <img src="/styles/images/status/status-6.png" alt="status pic" class="img-fluid">
+                            </div>
+                            <div class="create__row-header two">
+                                <div class="create__col">
+                                    <p class="post-info create__username">John Wick</p>
+                                    <p class="post-info privacy">Public <i class="fas fa-sort-down"></i></p> 
+                                </div>
+                                <div class="create__col description">
+                                    <p class="post-info">What's on your mind John?</p>
+                                   
+                                </div>
+                                <div class="border"></div>
+                                <ul class="create__col icon">
+                                    <li><i class="fas fa-video-camera live"></i> <p>Live Video</p></li>
+                                    <li><i class="fas fa-camera photo"></i><p>Photo/Video</p></li>
+                                    <li><i class="fa-classic fa-face-smile-beam reaction"></i><p>Feeling/Activity</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="post" class="post">
+                        <div class="post__container">
+                            <div class="post__row one">
+                                <div class="post__col profile-pic one">
+                                    <img src="/styles/images/status/status-6.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <div class="post__details">
+                                    <p class="post-info post__username">John Wick</p>
+                                    <p class="post-info privacy">Jun 24 2023 6:45pm</p> 
+                                </div>
+                                <div class="post__more-options">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+
+                            <div class="post__row">
+                                <div class="post__caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate labore aperiam tenetur quo rem, vero similique facere a atque sit ipsum illum at tempore nihil porro ad.
+                                    </p>
+                                </div>
+                                <div class="post__images">
+                                    <img src="/styles/images/design-pictures/portfolio-9.jpg" alt="" class="img-fluid">
+                                </div>
+                                <ul class="post__icons">
+                                    <li class="like-btn"><i class="fa-classic fa-thumbs-up"></i> 120</li>
+                                    <li><i class="fa-classic fa-comment"></i> 25</li>
+                                    <li><i class="fa-solid fa-share"></i> 20</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="post__container">
+                            <div class="post__row one">
+                                <div class="post__col profile-pic one">
+                                    <img src="/styles/images/status/status-4.jpg" alt="status pic" class="img-fluid">
+                                </div>
+                                <div class="post__details">
+                                    <p class="post-info post__username">James Robertson</p>
+                                    <p class="post-info privacy">Jun 24 2023 5:45pm</p> 
+                                </div>
+                                <div class="post__more-options">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+
+                            <div class="post__row">
+                                <div class="post__caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate labore aperiam tenetur quo rem, vero similique facere a atque sit ipsum illum at tempore nihil porro ad.
+                                    </p>
+                                </div>
+                                <div class="post__images">
+                                    <img src="/styles/images/design-pictures/portfolio-5.jpg" alt="" class="img-fluid">
+                                </div>
+                                <ul class="post__icons">
+                                    <li class="like-btn"><i class="fa-classic fa-thumbs-up"></i> 120</li>
+                                    <li><i class="fa-classic fa-comment"></i> 25</li>
+                                    <li><i class="fa-solid fa-share"></i> 20</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="post__container">
+                            <div class="post__row one">
+                                <div class="post__col profile-pic one">
+                                    <img src="/styles/images/status/status-3.png" alt="status pic" class="img-fluid">
+                                </div>
+                                <div class="post__details">
+                                    <p class="post-info post__username">David Payne</p>
+                                    <p class="post-info privacy">Jun 23 2023 6:30pm</p> 
+                                </div>
+                                <div class="post__more-options">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+
+                            <div class="post__row">
+                                <div class="post__caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate labore aperiam tenetur quo rem, vero similique facere a atque sit ipsum illum at tempore nihil porro ad.
+                                    </p>
+                                </div>
+                                <div class="post__images">
+                                    <img src="/styles/images/design-pictures/portfolio-4.jpg" alt="" class="img-fluid">
+                                </div>
+                                <ul class="post__icons">
+                                    <li class="like-btn"><i class="fa-classic fa-thumbs-up"></i> 120</li>
+                                    <li><i class="fa-classic fa-comment"></i> 25</li>
+                                    <li><i class="fa-solid fa-share"></i> 20</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="post__container">
+                            <div class="post__row one">
+                                <div class="post__col profile-pic one">
+                                    <img src="/styles/images/status/status-1.jpg" alt="status pic" class="img-fluid">
+                                </div>
+                                <div class="post__details">
+                                    <p class="post-info post__username">Christopher Rock</p>
+                                    <p class="post-info privacy">Jun 22 2023 8:40pm</p> 
+                                </div>
+                                <div class="post__more-options">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+
+                            <div class="post__row">
+                                <div class="post__caption">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate labore aperiam tenetur quo rem, vero similique facere a atque sit ipsum illum at tempore nihil porro ad.
+                                    </p>
+                                </div>
+                                <div class="post__images">
+                                    <img src="/styles/images/design-pictures/portfolio-7.jpg" alt="" class="img-fluid">
+                                </div>
+                                <ul class="post__icons">
+                                    <li class="like-btn"><i class="fa-classic fa-thumbs-up"></i> 120</li>
+                                    <li><i class="fa-classic fa-comment"></i> 25</li>
+                                    <li><i class="fa-solid fa-share"></i> 20</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main__more-div">
+                            <button type="button" class="main__more-btn">Load More</button>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="right-side-bar">
+                <div class="side-bar-container right">
+                    <div class="side-bar-row">
+                        <div class="side-bar-header">
+                            <h4>Events</h4>
+                            <p>See All</p>
+                        </div>
+                        
+                        <div class="side-bar-list">
+                            <div class="side-bar-items">
+                                <div class="calendar">
+                                    <div class="calendar-date">18</div>
+                                    <div class="calendar-month">March</div>
+                                </div>
+                                <div class="right-side-bar-event">
+                                    <p class="side-bar-header">Social Media</p>
+                                    <P> <i class="fas fa-map-location"></i> Wilson Pitch park</P>
+                                    <p class="more-link">More Info</p>
+                                </div>
+                            </div>
+                            <div class="side-bar-items">
+                                <div class="calendar">
+                                    <div class="calendar-date">22</div>
+                                    <div class="calendar-month">June</div>
+                                </div>
+                                <div class="right-side-bar-event">
+                                    <p class="side-bar-header">Mobile Marketing</p>
+                                    <P> <i class="fas fa-map-location"></i> Wilson Pitch park</P>
+                                    <p class="more-link">More Info</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side-bar-row ad">
+                        <div class="side-bar-header">
+                            <h4>Advertisement</h4>
+                            <p>close</p>
+                        </div>
+                        <div class="side-bar-items">
+                            <div class="side-bar-items">
+                                <img src="./styles/images/design-pictures/portfolio-9.jpg" alt="Advertisement img" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side-bar-row">
+                        <div class="side-bar-header">
+                            <h4>Conversation</h4>
+                            <p>Hide Chat</p>
+                        </div>
+                        <div class="side-bar-list">
+                            <div class="side-bar-items">
+                                <div class="profile-pic">
+                                    <div class="online"></div>
+                                    <img src="./styles/images/design-pictures/portfolio-2.jpg" alt="group img" class="img-fluid">
+                                </div>
+                                <p class="side-bar-header">Alison Mina</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <div class="profile-pic">
+                                    <div class="online"></div>
+                                    <img src="./styles/images/design-pictures/portfolio-5.jpg" alt="group img" class="img-fluid">
+                                </div>
+                                <p class="side-bar-header">Jackson Aston</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <div class="profile-pic">
+                                    <div class="online"></div>
+                                    <img src="./styles/images/design-pictures/portfolio-7.jpg" alt="group img" class="img-fluid">
+                                </div>
+                                <p class="side-bar-header">Samona Rose</p>
+                            </div>
+                            <div class="side-bar-items">
+                                <div class="profile-pic">
+                                    <div class="online"></div>
+                                    <img src="./styles/images/design-pictures/portfolio-9.jpg" alt="group img" class="img-fluid">
+                                </div>
+                                <p class="side-bar-header">Ruth Ayodele</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>&copy; Copyright 2023 VikToh Tutorials</p>
+        </div>
+    </footer>
+</body>
+</html>
